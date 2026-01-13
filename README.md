@@ -75,3 +75,17 @@ Create a .env file:
 
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/sales-order-db
+
+backend/
+├─ config/db.js
+├─ models/
+│  ├─ Product.js
+│  └─ Order.js
+├─ controllers/
+│  ├─ productController.js
+│  └─ orderController.js
+├─ routes/
+│  ├─ productRoutes.js
+│  └─ orderRoutes.js
+├─ index.js
+└─ package.json
